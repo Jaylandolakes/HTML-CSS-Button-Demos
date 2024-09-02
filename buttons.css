@@ -1,0 +1,196 @@
+.subscribe-button {
+    background-color: rgb(200, 0, 0);
+    color:white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left : 20px;
+    transition: opacity 0.15s;
+}
+
+.subscribe-button:hover {
+    opacity: 0.8;
+}
+
+.subscribe-button:active {
+    opacity: 0.5;
+}
+
+.join-button {
+    background-color: white;
+    border-color: rgb(41, 118, 240);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(41,118,240);
+    height: 36px;
+    width: 62px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.join-button:hover {
+    background-color: rgb(41,118,240);
+    color: white;
+}
+
+.join-button:active {
+    opacity: 0.7;
+}
+
+.tweet-button {
+    background-color: rgb(2, 137, 255);
+    color: white;
+    border:none;
+    height: 36px;
+    width: 74px;
+    border-radius: 18px;
+    font-weight:bold;
+    font-size:12px;
+    cursor: pointer;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+}
+
+.tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.exercise {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.nextNumbers {
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 0px;
+    margin-bottom:0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.exercisebuttonOne {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.exercisebuttonTwo {
+    Margin-left: 5px;
+    cursor: pointer;
+}
+
+.stretchButton {
+    background-color: green;
+    color: white;
+    border: none;
+    margin-top:20px;
+    margin-left: 20px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.stretchButton:hover {
+    margin-top:15px;
+    margin-left:15px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: large;
+    transition: 1s;
+}
+
+.shadowButton {
+    background-color: green;
+    color: white;
+    border: none;
+    margin-top:20px;
+    margin-left: 20px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.35);
+    transition: 0.10s;
+    cursor: pointer;
+}
+
+.shadowButton:active {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.35);
+}
+
+.oneB {
+    background-color: green;
+    color: white;
+    border: none;
+    margin-top:20px;
+    margin-left: 20px;
+    margin-right:10px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.oneB:hover {
+    margin-left: 15px;
+    margin-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.twoB {
+    background-color: green;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right:10px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.twoB:hover {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.threeB {
+    background-color: green;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.threeB:hover {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
